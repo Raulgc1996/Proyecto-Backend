@@ -4,14 +4,14 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <!-- Mapping configuration details between Customer class and customer table -->
-<hibernate-mapping package="CO.BIZGEN.data">
+<hibernate-mapping package="CO.BIZGEN.data.model">
 
 	<class name="User_Role" table="USER_ROLE">
-		<id name="id" column="ID">
+		<id name="id" column="ID" >
 			<generator class="identity" />
 		</id>
-		<property name="iduser" column="IDUSER" />
-		<property name="idrole" column="IDROLE" />
+		<property name="idUser" column="IDUSER" />
+		<property name="idRole" column="IDROLE" />
 	</class>
 
 </hibernate-mapping>

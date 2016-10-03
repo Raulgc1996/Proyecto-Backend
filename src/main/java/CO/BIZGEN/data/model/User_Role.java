@@ -1,6 +1,8 @@
 package CO.BIZGEN.data.model;
 
 public class User_Role {
+	private Long id;
+	
 	private Long idUser;
 	private Long idRole;
 	public User_Role(){
@@ -22,5 +24,10 @@ public class User_Role {
 	public void setIdRole(Long idRole) {
 		this.idRole = idRole;
 	}
-	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 }
