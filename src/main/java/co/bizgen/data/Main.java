@@ -10,7 +10,7 @@ import co.bizgen.data.model.Role;
 import co.bizgen.data.model.User;
 
 /**
- * Hello world!
+ * Hello world!sdasdasd
  *
  */
 public class Main 
