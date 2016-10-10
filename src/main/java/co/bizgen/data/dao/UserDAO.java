@@ -1,10 +1,8 @@
-package CO.BIZGEN.data.dao;
+package co.bizgen.data.dao;
 
 import java.util.List;
 
-
-
-import CO.BIZGEN.data.model.User;
+import co.bizgen.data.model.User;
 
 /**
  * UserDAO interface

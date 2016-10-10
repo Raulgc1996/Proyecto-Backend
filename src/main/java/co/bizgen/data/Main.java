@@ -1,18 +1,13 @@
-package CO.BIZGEN.data;
+package co.bizgen.data;
 
 import java.util.List;
 
-
-
-
-import CO.BIZGEN.data.dao.UserDAO;
-import CO.BIZGEN.data.dao.impl.HibernateUserDAO;
-
-import CO.BIZGEN.data.model.User;
-
-import CO.BIZGEN.data.dao.RoleDAO;
-import CO.BIZGEN.data.dao.impl.HibernateRoleDAO;
-import CO.BIZGEN.data.model.Role;
+import co.bizgen.data.dao.RoleDAO;
+import co.bizgen.data.dao.UserDAO;
+import co.bizgen.data.dao.impl.HibernateRoleDAO;
+import co.bizgen.data.dao.impl.HibernateUserDAO;
+import co.bizgen.data.model.Role;
+import co.bizgen.data.model.User;
 
 /**
  * Hello world!

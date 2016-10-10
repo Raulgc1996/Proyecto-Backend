@@ -1,8 +1,8 @@
-package CO.BIZGEN.data.dao;
+package co.bizgen.data.dao;
 
 import java.util.List;
 
-import CO.BIZGEN.data.model.Role;;
+import co.bizgen.data.model.Role;;
 
 public interface RoleDAO {
 	public Role selectById(Long id);

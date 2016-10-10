@@ -4,7 +4,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <!-- Mapping configuration details between Customer class and customer table -->
-<hibernate-mapping package="CO.BIZGEN.data.model">
+<hibernate-mapping package="co.bizgen.data.model">
 
 	<class name="User_Role" table="USER_ROLE">
 		<id name="id" column="ID" >

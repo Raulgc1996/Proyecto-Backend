@@ -1,15 +1,13 @@
-package CO.BIZGEN.data.dao.impl;
+package co.bizgen.data.dao.impl;
 
 import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import CO.BIZGEN.data.HibernateSession;
-import CO.BIZGEN.data.dao.*;
 
-import CO.BIZGEN.data.dao.UserDAO;
-import CO.BIZGEN.data.model.User;
-import CO.BIZGEN.data.model.User;
+import co.bizgen.data.HibernateSession;
+import co.bizgen.data.dao.*;
+import co.bizgen.data.model.User;
 
 /**
  * Hibernate specific Customer DAO

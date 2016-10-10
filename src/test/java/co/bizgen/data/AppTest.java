@@ -1,4 +1,4 @@
-package CO.BIZGEN.data;
+package co.bizgen.data;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

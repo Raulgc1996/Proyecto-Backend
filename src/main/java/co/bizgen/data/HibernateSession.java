@@ -1,4 +1,4 @@
-package CO.BIZGEN.data;
+package co.bizgen.data;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

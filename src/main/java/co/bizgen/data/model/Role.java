@@ -1,4 +1,4 @@
-package CO.BIZGEN.data.model;
+package co.bizgen.data.model;
 
 public class Role {
 	private Long id;

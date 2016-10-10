@@ -1,13 +1,13 @@
-package CO.BIZGEN.data.dao.impl;
+package co.bizgen.data.dao.impl;
 
 import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import CO.BIZGEN.data.HibernateSession;
-import CO.BIZGEN.data.dao.User_RoleDAO;
-import CO.BIZGEN.data.model.User_Role;
+import co.bizgen.data.HibernateSession;
+import co.bizgen.data.dao.User_RoleDAO;
+import co.bizgen.data.model.User_Role;
 
 public class HibernateUser_RoleDAO implements User_RoleDAO {
 
