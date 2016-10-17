@@ -1,5 +1,10 @@
 package co.bizgen.data.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
+
+
 /**
  * Represents the Customer data
  * 
@@ -11,7 +16,7 @@ public class User {
 	private String username;
 	private String password;
 	private String email;
-
+	private List<Idea> ideas = new ArrayList<Idea>();
 	/**
 	 * Default constructor
 	 */
@@ -93,4 +98,16 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+	public List<Idea> getIdeas() {
+		return ideas;
+	}
+
+	public void setIdeas(List<Idea> ideas) {
+		this.ideas = ideas;
+	}
+	public void addIdea(Idea idea) {
+		this.ideas.add(idea);
+	}
+	
 }

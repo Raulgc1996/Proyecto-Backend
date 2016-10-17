@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="co.bizgen.data.model">
+<class name="Avatar" table="AVATAR">
+		<id name="id" column="ID">
+			<generator class="identity" />
+		</id>
+		
+		
+		<property name="name" column="Name" />
+		<property name="description" column="Description" />
+		<property name="idea_date" column="Idea_Date" />
+		<property name="latitude" column="Latitude" />
+		<property name="longitude" column="Longitude" />
+		<many-to-one name="user" column="idUser" />
+	</class>
+</hibernate-mapping>
