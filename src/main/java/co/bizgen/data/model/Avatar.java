@@ -12,8 +12,8 @@ public Avatar(long id, String description, String image) {
 public long getId() {
 	return id;
 }
-public void setId(int id) {
-	this.id = id;
+public void setId(Long id2) {
+	this.id = id2;
 }
 public String getDescription() {
 	return description;

@@ -31,7 +31,9 @@
 
 		<mapping resource="role.hbm.xml" />
 <mapping resource="user_role.hbm.xml" />
-
+<mapping resource="avatar.hbm.xml" />
+<mapping resource="org/sistema/hibernate/oneToOne/mappings/User.hbm.xml" />
+<mapping resource="org/sistema/hibernate/oneToOne/mappings/avatar.hbm.xml" />
 	</session-factory>
 
 </hibernate-configuration>
